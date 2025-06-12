@@ -18,7 +18,7 @@ START_IMG = getenv("START_IMG", "https://graph.org/vTelegraphBot-06-12-21")
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+G0yTSKAKnsBlN2U9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/v2botlogs")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sohan_dump")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7418323193").split()))
